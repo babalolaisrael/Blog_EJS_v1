@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%> 
+    <h1>Contact</h1>
+    <p><%= contactContent %> </p>
+    <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="name">First Name</label>
+            <input type="text" class="form-control form_feel" name= "name" id="" placeholder="John">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="">Last Name</label>
+            <input type="text" class="form-control form_feel" id="" placeholder="Doe">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="">Email</label>
+          <input type="email" class="form-control form_feel" id="" placeholder="Your email">
+        </div>
+        <div class="form-group">
+          <label for="">Message</label>
+          <textarea type="text" class="form-control form_feel" id="" placeholder="Your message" rows="6" cols="30"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary submit">Submit</button>
+      </form>
+<%- include("partials/footer"); -%> 
